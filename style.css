@@ -11,7 +11,7 @@
     margin-top: 100px;
     border: solid 2px black;
     text-align: center;
-    background-color: rgb(212, 212, 236);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;    
 }
 
@@ -22,12 +22,15 @@
     margin-bottom: 10px;
     height: 70px;
     margin: auto;
+    font-size: 25px;
+    
 }
 
 #botoes{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr ;
-    margin: 0 auto;    
+    margin: 0 auto;
+    cursor: pointer;    
 }
 
 #visorescrever{
@@ -37,7 +40,8 @@
     font-size: 20px;
     text-align: right;
     padding-right: 15px;
-    padding-top: 5px;     
+    padding-top: 5px; 
+    font-size: 25px;    
 }
 
 #visorresultado{
@@ -47,6 +51,7 @@
     border-radius: 15px;
     padding-right: 15px;
     text-align: right;
+    
 }
 
 #visor{
@@ -60,37 +65,54 @@
     width: 90px;
     height: 80px;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 50px;
     border: solid 1px black;
-    font-size: 23px;   
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(158, 154, 154, 0.295);
+    color: white;   
 }
 
 #botaoc{
     max-height: 50px;
+    cursor: pointer;
+    background-color: rgba(158, 154, 154, 0.295);
+    border-radius: 50px;
 }
 
 #botaoparentese{
     max-height: 50px;
+    border-radius: 50px;
+    color:rgba(24, 143, 19, 0.925);
 }
 
 #botaoporcentagem{
     max-height: 50px;
+    border-radius: 50px;
+    color: rgba(24, 143, 19, 0.925);
 }
 
 #igual{
     width: 90px;
     height: 80px;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 50px;
     border: solid 1px black;
-    font-size: 23px;   
+    font-size: 30px;
+    color: white;
+    background-color: rgba(24, 143, 19, 0.925);   
 }
 
 #botaoc{
     width: 90px;
     height: 80px;
     margin: 5px;
-    border-radius: 15px;
     border: solid 1px black;
-    font-size: 23px;   
+    font-size: 30px; 
+    border-radius: 50px;
+    color: rgb(233, 76, 14);  
+}
+
+#btnverde{
+    color: rgba(24, 143, 19, 0.925);
 }
